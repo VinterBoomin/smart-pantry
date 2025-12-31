@@ -36,7 +36,7 @@ It allows users to manage their kitchen inventory in real-time and uses a smart 
 4.  **Access:** Open your browser and navigate to:
     `http://localhost:8080`
 
-## Code Highlight (Logic)
+## Code Highlight
 
 The system features a custom logic to handle unit conversions dynamically:
 
@@ -52,4 +52,4 @@ private double normalizeAmount(double amount, Unit unit) {
     }
 }
 
-Created by Itay Vinter (https://www.linkedin.com/in/itay-vinter/)
+## Created by Itay Vinter (https://www.linkedin.com/in/itay-vinter/)
