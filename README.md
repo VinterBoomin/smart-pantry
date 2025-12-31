@@ -1,5 +1,6 @@
 # Smart Pantry Management System
 
+**Created by [Itay Vinter](https://www.linkedin.com/in/itay-vinter/)**
 > A full-stack inventory management application that helps users minimize food waste by tracking ingredients and suggesting recipes based on available stock.
 <img width="1802" height="860" alt="dashboard" src="https://github.com/user-attachments/assets/ba9c6e47-92fa-425a-809b-6d6a2f98ab3d" />
 
@@ -52,4 +53,3 @@ private double normalizeAmount(double amount, Unit unit) {
     }
 }
 ```
-## Created by Itay Vinter (https://www.linkedin.com/in/itay-vinter/)
