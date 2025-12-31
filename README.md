@@ -2,7 +2,7 @@
 
 > A full-stack inventory management application that helps users minimize food waste by tracking ingredients and suggesting recipes based on available stock.
 <img width="1802" height="860" alt="dashboard" src="https://github.com/user-attachments/assets/ba9c6e47-92fa-425a-809b-6d6a2f98ab3d" />
-Created by Itay Vinter
+
 ## Overview
 
 The **Smart Pantry** is a web application designed to solve the common problem of "What can I cook with what I have?". 
@@ -51,3 +51,5 @@ private double normalizeAmount(double amount, Unit unit) {
         default:        return amount;
     }
 }
+
+Created by Itay Vinter (https://www.linkedin.com/in/itay-vinter/)
