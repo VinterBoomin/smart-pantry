@@ -51,5 +51,5 @@ private double normalizeAmount(double amount, Unit unit) {
         default:        return amount;
     }
 }
-
+```
 ## Created by Itay Vinter (https://www.linkedin.com/in/itay-vinter/)
