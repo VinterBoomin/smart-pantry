@@ -6,11 +6,11 @@
 ## Overview
 
 The **Smart Pantry** is a web application designed to solve the common problem of "What can I cook with what I have?". 
-It allows users to manage their kitchen inventory in real-time and uses a smart algorithm to match available ingredients with recipes. The system handles unit conversions (e.g., matching "1 kg Flour" in stock with "500 grams Flour" in a recipe) and updates the inventory automatically after cooking.
+It allows users to manage their kitchen inventory in real-time and uses a smart algorithm to match available ingredients with recipes. The system handles unit conversions and updates the inventory automatically after cooking.
 
 ## Key Features
 
-* **Inventory Management:** Add, view, and track ingredients with various units (kg, liters, cups, etc.).
+* **Inventory Management:** Add, view, and track ingredients with various units (kg, liters, cups, etc).
 * **Smart Recipe Engine:** Analyzes current stock to suggest possible recipes.
 * **Unit Normalization:** Advanced logic to compare different units (e.g., Liters vs. Cups).
 * **"Cook & Eat" Logic:** Automatically deducts used ingredients from the inventory when a recipe is cooked.
