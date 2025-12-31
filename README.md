@@ -1,13 +1,14 @@
-# 🥦 Smart Pantry Management System
+# Smart Pantry Management System
 
 > A full-stack inventory management application that helps users minimize food waste by tracking ingredients and suggesting recipes based on available stock.
 <img width="1802" height="860" alt="dashboard" src="https://github.com/user-attachments/assets/ba9c6e47-92fa-425a-809b-6d6a2f98ab3d" />
-## 📖 Overview
+Created by Itay Vinter
+## Overview
 
 The **Smart Pantry** is a web application designed to solve the common problem of "What can I cook with what I have?". 
 It allows users to manage their kitchen inventory in real-time and uses a smart algorithm to match available ingredients with recipes. The system handles unit conversions (e.g., matching "1 kg Flour" in stock with "500 grams Flour" in a recipe) and updates the inventory automatically after cooking.
 
-## ✨ Key Features
+## Key Features
 
 * **Inventory Management:** Add, view, and track ingredients with various units (kg, liters, cups, etc.).
 * **Smart Recipe Engine:** Analyzes current stock to suggest possible recipes.
@@ -16,7 +17,7 @@ It allows users to manage their kitchen inventory in real-time and uses a smart 
 * **Data Persistence:** Uses H2 Database to save inventory state between sessions.
 * **Responsive UI:** Built with Bootstrap 5 for a clean experience on mobile and desktop.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Backend:** Java 17, Spring Boot 3.4
 * **Database:** H2 Database (In-Memory/File-based), Spring Data JPA (Hibernate)
@@ -24,7 +25,7 @@ It allows users to manage their kitchen inventory in real-time and uses a smart 
 * **API:** RESTful Architecture
 * **Build Tool:** Maven
 
-## 🚀 How to Run
+## How to Run
 
 1.  **Clone the repository:**
     ```bash
@@ -35,7 +36,7 @@ It allows users to manage their kitchen inventory in real-time and uses a smart 
 4.  **Access:** Open your browser and navigate to:
     `http://localhost:8080`
 
-## 🧠 Code Highlight (Logic)
+## Code Highlight (Logic)
 
 The system features a custom logic to handle unit conversions dynamically:
 
